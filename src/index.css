@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input {
+	width: 200px;
+}
+
+.App {
+	display: flex;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.heading {
+	margin-top: 48px;
+	text-align: center;
+}
+
+.accounts {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.accounts-a {
+	margin-right: 30px;
+}
+
+.accounts-b {
+	margin-left: 30px;
+}
+
+.account {
+	position: relative;
+}
+
+.account-text {
+	vertical-align: bottom;
+}
+
+.withdraw--info {
+	margin-top: 30px;
+}
+
+.deposit--info {
+	margin-top: 30px;
+}
+
+.btn--container {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn {
+	padding: 6px;
 }
